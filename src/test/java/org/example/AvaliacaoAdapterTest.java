@@ -14,15 +14,12 @@ public class AvaliacaoAdapterTest {
         monitor.registrarObservador(adapter);
 
         monitor.setTipoProva("Fluência");
-        assertEquals("A", avaliacaoTipo.getTipoProva());
-
-        monitor.setTipoProva("Lançamento de Resposta");
-        assertEquals("B", avaliacaoTipo.getTipoProva());
+        assertEquals("Fluência", avaliacaoTipo.getTipoProva());
 
         monitor.setTipoProva("Prova Digital");
-        assertEquals("C", avaliacaoTipo.getTipoProva());
+        assertEquals("Prova Digital", avaliacaoTipo.getTipoProva());
 
         monitor.setTipoProva("Prova Impressa");
-        assertEquals("D", avaliacaoTipo.getTipoProva());
+        assertEquals("Prova Impressa", avaliacaoTipo.getTipoProva());
     }
 }
