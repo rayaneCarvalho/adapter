@@ -5,9 +5,22 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="313bb4d3-1edc-48d9-a52e-473d1a844a73" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/conversor/ArquivoMidia.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/conversor/ConversorVhsAdapter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/conversor/Gerenciamento.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/conversor/IConversorMidia.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/conversor/GerenciamentoTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/org/example/AvaliacaoAdapterTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/example/AvaliacaoAdapterTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/org/example/MonitorDeProvaTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DiagramaAdapter-ajuste.mdj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/AvaliacaoAdapter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/AvaliacaoProva.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/AvaliacaoTipo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/ExibidorDeTipoProva.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/IAvaliacao.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/MonitorDeProva.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Observer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Subject.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/example/AvaliacaoAdapterTest.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -46,7 +59,7 @@
     "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
     "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
     "git-widget-placeholder": "master",
-    "last_opened_file_path": "C:/Users/Aluno/Desktop/adapter"
+    "last_opened_file_path": "C:/Users/rayan/Documents/LP5/adapter"
   }
 }]]></component>
   <component name="RecentsManager">
@@ -54,10 +67,11 @@
       <recent name="" />
     </key>
     <key name="CreateTestDialog.RecentsKey">
+      <recent name="org.example.conversor" />
       <recent name="org.example" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.AvaliacaoAdapterTest (1)">
+  <component name="RunManager" selected="JUnit.GerenciamentoTest">
     <configuration name="AvaliacaoAdapterTest (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="adapter" />
       <extension name="coverage">
@@ -88,6 +102,21 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="GerenciamentoTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Adapter" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.conversor.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.example.conversor" />
+      <option name="MAIN_CLASS_NAME" value="org.example.conversor.GerenciamentoTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="MonitorDeProvaTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Adapter" />
       <extension name="coverage">
@@ -105,6 +134,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.GerenciamentoTest" />
         <item itemvalue="JUnit.AvaliacaoAdapterTest (1)" />
         <item itemvalue="JUnit.MonitorDeProvaTest" />
         <item itemvalue="JUnit.AvaliacaoAdapterTest" />
